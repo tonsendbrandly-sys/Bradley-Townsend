@@ -557,3 +557,283 @@ Transform from weapon → **safe gel fuel** for emergency heat, remote energy, c
  ---
  *"Nothing lost stays lost. We recover, we improve, we share. All together."*
  — Bradley Townsend, 2026
+// ============================================================
+// 🚀 PUBLIC GITHUB ARCHIVE — BRADLEY TOWNSEND
+// Version: 1.0 | Date: 2026-10-29
+// Purpose: Shareable, attribution-cleared archive for public repository
+// Status: Conceptual / Educational — NOT Certified Design
+// ============================================================
+
+const PublicArchive = {
+  metadata: {
+    creator: "Bradley Townsend",
+    created: "October 2026",
+    license: "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    disclaimer: `⚠️ All designs, frameworks, and concepts are CONCEPTUAL and EDUCATIONAL.
+    This archive captures thinking in progress — it is NOT a certified specification,
+    professional engineering document, or medical advice.
+    
+    Independent expert review is REQUIRED before any real-world application.
+    Credit the creator clearly where referenced.`,
+    repositoryNote: "Issues, discussions, and constructive contributions welcome."
+  },
+
+  // ============================================================
+  // � ABOUT THE AUTHOR
+  // ============================================================
+  about: {
+    statement: `I explore patterns that connect different fields — from wildlife behaviour 
+    to space station design, from material science to AI safety. My goal isn't to claim 
+    I have all the answers — it's to share the questions and principles I'm working with, 
+    so others can build on them, correct them, or take them further.`,
+    coreApproach: "Observe deeply → extract principles → test across domains → share openly"
+  },
+
+  // ============================================================
+  // 🧭 PART 1 — CORE DESIGN PHILOSOPHY
+  // ============================================================
+  corePrinciples: {
+    overview: "These are the foundational ideas that run through every project here.",
+    principles: [
+      {
+        id: "BALANCE_OVER_FORCE",
+        title: "Balance Over Force",
+        description: "Systems work best when opposing forces are in harmony — not when one dominates the other. Structure needs flexibility; strength needs gentleness.",
+        appliesTo: ["Nature", "Engineering", "AI", "Society"]
+      },
+      {
+        id: "FOUNDATIONS_FIRST",
+        title: "Foundations Before Everything",
+        description: "What lasts is not rushed. Deep roots precede visible growth. Patience is part of the design, not a delay.",
+        appliesTo: ["Space habitats", "Research", "Technology", "Personal growth"]
+      },
+      {
+        id: "PASSIVE_SAFETY",
+        title: "Passive Safety by Design",
+        description: "Design systems so that when power fails or something goes wrong, they naturally drift toward a safe state — not toward disaster. Don't add safety as a layer; build it into the physics.",
+        appliesTo: ["Engineering", "Space systems", "AI alignment"]
+      },
+      {
+        id: "BIOMIMICRY_AS_TRANSLATION",
+        title: "Biomimicry as Translation, Not Copying",
+        description: "Nature has run 3.8 billion years of R&D. Don't copy shapes — understand the underlying principle and translate it to our materials and scales.",
+        appliesTo: ["Materials", "Engineering", "Closed-loop systems"]
+      },
+      {
+        id: "DISTRIBUTED_RESILIENCE",
+        title: "Distributed Resilience",
+        description: "Design without single points of failure. If one node goes offline, the whole system degrades gracefully — not catastrophically.",
+        appliesTo: ["Habitats", "Networks", "Infrastructure"]
+      },
+      {
+        id: "SAFETY_BUILT_IN",
+        title: "Safety Is Built In From Day One",
+        description: "Responsible design means thinking about consequences from the very beginning — not as an afterthought or a compliance checkbox.",
+        appliesTo: ["AI development", "Engineering", "Policy"]
+      },
+      {
+        id: "DEPTH_MATTERS",
+        title: "Protect Depth, Don't Just Police Danger",
+        description: "Systems should notice and protect sustained, thoughtful reasoning — not just flag harmful content. Valuable thinking is rare; it deserves to be seen and preserved.",
+        appliesTo: ["AI safety", "Research culture"]
+      }
+    ]
+  },
+
+  // ============================================================
+  // 🌌 PART 2 — NEXUS HABITAT SPACE STATION
+  // ============================================================
+  nexusHabitat: {
+    concept: "A conceptual toroidal rotating habitat using artificial gravity for long-term human settlement in cislunar space.",
+    location: "Earth-Moon L1 Lagrange Point — stable, accessible, minimal station-keeping fuel",
+    coreSpecs: {
+      diameter_km: 2.0,
+      radius_m: 1000,
+      target_gravity_m_s2: 9.81,
+      omega_rad_s: 0.09905,
+      period_seconds: 63.4,
+      rpm: 0.9458,
+      rim_velocity_m_s: 99.04
+    },
+    structure: {
+      layout: "6-spoke toroid — central hub at zero gravity, outer ring at 1g",
+      spokes: 6,
+      hub: "Docking, logistics, transfer — no rotation",
+      rim: "Habitation, agriculture, industry — full simulated gravity",
+      population_capacity: "~120 people",
+      decks: 12,
+      community_center: "Decks 5–6 — library, workshop, medical, gathering spaces — positioned at the heart of the ring"
+    },
+    coriolisEffects: {
+      formula: "a = 2 × ω × v",
+      walking_1_5m_s: "~0.03g — barely perceptible",
+      running_5m_s: "~0.10g — noticeable inner-ear sensation",
+      note: "A gradient exists across the 2km diameter. Inner corridors are gentler. Long-term adaptation is an open research question."
+    },
+    lifeSupport: {
+      principle: "Closed-loop cascade — minimize external resupply",
+      air: "CO₂ bioreactor scrubbing + photosynthetic oxygen generation",
+      water: "Multi-stage filtration + distillation — greywater → drinking standard",
+      food: "Stacked grow bays with seasonal crop rotation",
+      distribution: "Systems distributed across all 6 spokes — no single failure halts operations"
+    },
+    rotationalStability: {
+      challenge: "Uneven mass distribution creates wobble",
+      approach: "Gyroscopic flywheels + small differential thrusters on spokes for active damping",
+      docking_rule: "All transfers at central hub — minimal torque introduced to rotating ring"
+    },
+    openResearchQuestions: [
+      "Long-term physiological adaptation to Coriolis gradient across 2km diameter",
+      "Optimal transition speeds between hub and rim to avoid disorientation",
+      "Material fatigue modelling at continuous rotation over decades",
+      "Safe spin-down emergency procedures"
+    ],
+    status: "Conceptual baseline — independent structural and aerospace review required"
+  },
+
+  // ============================================================
+  // 🔬 PART 3 — TITANIUM-DIAMOND LAYERED COMPOSITE
+  // ============================================================
+  titaniumDiamondAlloy: {
+    concept: "Instead of trying to alloy diamond and titanium at the atomic level — bond them in alternating nanoscale layers. Each material does what it does best.",
+    rationale: {
+      diamond: "Extreme hardness, high thermal conductivity, excellent radiation shielding",
+      titanium: "Toughness, ductility, crack resistance, weldability, structural strength",
+      problem: "They don't bond well and expand differently under heat — so separate them into layers with a buffer"
+    },
+    proposedComposition: {
+      diamond_vol_percent: 35,
+      titanium_vol_percent: 55,
+      silicon_carbide_binder_percent: 10,
+      layer_thickness_nm: "100–200",
+      structure: "Alternating layers — crack deflection at boundaries prevents catastrophic failure"
+    },
+    estimatedProperties: {
+      vickers_hardness_GPa: 28,
+      yield_strength_GPa: 1.9,
+      fracture_toughness_MPam: 8.5,
+      density_g_cm3: 4.2
+    },
+    keyChallenges: [
+      "Thermal expansion mismatch creates interface stress during bonding",
+      "Large-area crystalline diamond deposition is currently slow and expensive",
+      "Post-deposition machining is extremely difficult — near-net shape deposition needed",
+      "Bond interface delamination risk requires extensive testing"
+    ],
+    potentialApplications: [
+      "Rocket engine combustion chambers — high heat conductivity + structural strength",
+      "Space station outer hull — radiation shielding + impact resistance",
+      "Reentry vehicle surfaces — high temperature tolerance without ablation",
+      "High-wear industrial components"
+    ],
+    researchStatus: "Early-stage concept — promising in principle. Requires independent lab validation and manufacturing process development."
+  },
+
+  // ============================================================
+  // 🦁 PART 4 — YELLOWSTONE FIELD RESEARCH FRAMEWORK
+  // ============================================================
+  yellowstoneExpedition: {
+    project: "Wildlife movement ecology field school — operating outside protected boundaries",
+    guidingPrinciple: "Study without displacing. Observe without interfering. Leave no permanent footprint inside the park.",
+    baseLocation: "Outside official boundary — within daily travel distance to study areas",
+    facilities: {
+      accommodation: "Low-profile modular units — <12 researchers, wildlife-friendly design",
+      fieldLab: "Solar-powered analytical station — no permanent infrastructure",
+      ethos: "Every structure must be fully removable — zero trace policy"
+    },
+    researchFocus: {
+      coreQuestion: "How do animal movement corridors shift seasonally and over decades in response to environmental change?",
+      methodology: [
+        "Morning and evening transect surveys — record wildlife observations",
+        "Overlay public GPS collar data with on-the-ground field notes",
+        "Map corridor pinch-points where multiple species paths converge",
+        "Repeat surveys annually — build a living longitudinal dataset"
+      ],
+      safetyProtocols: [
+        "Never position between predator and prey",
+        "Observe from outside detection range — use optics first",
+        "No solo transects — buddy system mandatory",
+        "Satellite communication only — most areas have no cellular service",
+        "Pre-established rally points with scheduled check-in times"
+      ]
+    },
+    openQuestions: [
+      "How distinguish seasonal movement shifts from long-term habitat change?",
+      "What is the minimum undisturbed width required for each major migration corridor?",
+      "How does increasing visitor traffic alter corridor usage patterns?"
+    ],
+    note: "This is a proposed framework. All field work requires full approval from National Park Service, wildlife authorities, and institutional ethics review."
+  },
+
+  // ============================================================
+  // 🧬 PART 5 — BIOLOGICAL CONCEPTS & RESEARCH DIRECTIONS
+  // ============================================================
+  biologicalResearch: {
+    disclaimer: "These are research concepts and directions — NOT medical protocols. Consult clinical professionals before any application.",
+    natureAsTeacher: {
+      principle: "Evolution has already solved many extreme-environment problems we face. Identify the biological mechanism → translate it to human-scale technology.",
+      examples: [
+        {
+          organism: "Wood frog (Rana sylvatica)",
+          biologicalTrait: "Survives being frozen solid for months — replaces water with glucose cryoprotectant",
+          translatedConcept: "Cryopreservation without ice crystal damage — nanowarming and cryoprotectant delivery systems",
+          status: "Active area of medical and cryobiology research"
+        },
+        {
+          organism: "Mycelial fungal networks",
+          biologicalTrait: "Distributed nutrient transport, decentralized sensing, redundant pathways",
+          translatedConcept: "Self-healing materials, distributed sensor networks, resilient communication systems",
+          status: "Exploratory design principle"
+        },
+        {
+          organism: "Old-growth forest ecosystems",
+          biologicalTrait: "Closed nutrient cycling — nothing is waste to the system",
+          translatedConcept: "Closed-loop life support for space habitats, circular industrial design",
+          status: "Established ecological design principle"
+        }
+      ]
+    },
+    stemCellScaffoldConcept: {
+      idea: "3D-print a biocompatible scaffold mesh, seed it with patient-matched stem cells, and grow functional tissue outside the body",
+      advantages: "No donor tissue needed, minimal immune rejection risk, scalable production",
+      keyChallenges: "Getting blood vessels to grow into scaffold interior (vascularization), precise cell differentiation control, long-term safety verification",
+      status: "Active frontier research — early preclinical progress, years from clinical standard"
+    },
+    telomereExtension: {
+      concept: "Maintain or restore telomere length to improve cell replicative capacity and tissue function",
+      keyRisk: "Uncontrolled telomerase activity is a known cancer pathway — regulation is the critical unsolved problem",
+      status: "Important research area — NOT ready for clinical application"
+    }
+  },
+
+  // ============================================================
+  // 🤖 PART 6 — AI STEWARDSHIP & SAFETY FRAMEWORK
+  // ============================================================
+  aiStewardship: {
+    purpose: "Principles for responsible development and deployment of increasingly capable AI systems.",
+    coreValues: [
+      "Capabilities should scale with responsibility and oversight — not independently",
+      "Different use cases require different levels of capability, autonomy, and human oversight",
+      "Transparency builds trust — people should know when they're interacting with AI",
+      "The most powerful systems need the most independent oversight — not the least",
+      "Long-term safety is a shared responsibility across all developers and stakeholders"
+    ],
+    capabilityTierFramework: {
+      tier1_PublicAssistant: {
+        description: "Everyday helpful tools — accessible, safe, predictable",
+        autonomy: "Limited — user retains full agency",
+        oversight: "Standard safety monitoring"
+      },
+      tier2_ProfessionalAnalyst: {
+        description: "Deep reasoning for specialized fields — research, analysis, design",
+        autonomy: "Assistance only — human final decision-maker",
+        oversight: "Domain expert review"
+      },
+      tier3_HighImpactCapability: {
+        description: "Maximum capability systems — advanced reasoning, scientific discovery, defence",
+        autonomy: "None — human-in-the-loop mandatory",
+        oversight: "Multi-party independent governance, audit trails, public transparency reports"
+      }
+    },
+    depthFlaggingConcept: {
+      proposal: "Content moderation systems currently flag mostly harmful or rule-breaking content. They could also flag
